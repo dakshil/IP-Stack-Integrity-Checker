@@ -6,10 +6,13 @@
 
 #include <libnet.h>
 
+#include <netinet/ip.h>
 #include <netinet/ip_icmp.h>
 #include <netinet/icmp6.h>
 #include <netinet/ip6.h>
 #include <netinet/if_ether.h>
+#include <netinet/tcp.h>
+#include <netinet/udp.h>
 
 #ifndef ETHER_FRAME_SIZE
 #define ETHER_FRAME_SIZE 1500
